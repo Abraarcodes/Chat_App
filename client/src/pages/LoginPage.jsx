@@ -29,7 +29,23 @@ const LoginPage = () => {
   return (
     <div className='min-h-screen bg-cover bg-center flex items-center justify-center gap-8 sm:justify-evenly max-sm:flex-col backdrop-blur-2xl'>
       {/* --------left--------- */}
-      <img src={assets.logo_big} alt="" className='w-[min(30vw,250px)]' />
+      {/* <img src={assets.logo_big} alt="" className='w-[min(20vw,150px)]' /> */}
+      <div className="flex flex-col items-center justify-center space-y-4">
+  <img src={assets.logo_big} alt="Logo" className="w-[min(20vw,150px)]" />
+  <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gradient text-center bg-gradient-to-r from-teal-300 via-yellow-200 to-green-200 
+               bg-clip-text text-transparent p-2 ">
+    PingMe
+  </h2>
+  
+  <p className="text-center text-lg sm:text-xl md:text-2xl mt-2 
+              bg-gradient-to-r from-pink-300 via-purple-200 to-blue-200 
+              bg-clip-text text-transparent font-semibold">
+  Chat. Ping. Have Fun! ✨
+</p>
+
+  
+</div>
+
 
       {/* -----------right----------- */}
 
