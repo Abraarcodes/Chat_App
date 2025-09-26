@@ -5,7 +5,7 @@ import toast from "react-hot-toast";
 import { useEffect } from "react";
 import {io} from 'socket.io-client';
 
-const backendUrl=import.meta.env.VITE_BACKEND_URL;
+const backendUrl=import.meta.env.VITE_BACKEND_URL || 'https://chat-app-backend-2z3z.onrender.com/';
 axios.defaults.baseURL=backendUrl;
 
 
